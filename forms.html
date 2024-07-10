@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="processing.php">
+        <label for="firstName">FirstName:</label>
+        <input type="text" name="firstName" value="RAJU"><br><br>
+        <label for="lastname">LastName:</label>
+        <input type="text" name="lastname" value="KUNARAPU"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br> <br>
+
+        <label for="birthday">DateOfBirth:</label>
+        <input type="datetime-local" name="birthday" id="birthday"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your valid email address"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter your valid password"><br><br>
+
+        <label for="mobile number">Mobile number</label>
+        <input type="text" placeholder="Enter your mobile number"><br><br>
+
+        <p>Your Favorite Language:</p>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="php" name="fav_language" value="php">
+        <label for="radio">PHP</label>
+
+        <p>Select your games</p>
+        <input type="checkbox" name="cricket">
+        <label for="cricket">Cricket</label><br>
+        <input type="checkbox" name="volleyball">
+        <label for="volleyball">Volleyball</label><br>
+        <input type="checkbox" name="football">
+        <label for="football">Football</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="reset"><br><br>
+
+        <input type="button" onclick="alert('succuss fully submitted')" value="Click me">
+
+    </form>
+
+</body>
+</html>
